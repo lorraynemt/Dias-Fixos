@@ -1,6 +1,6 @@
 public class Operadores {
     public static void main(String[] args) throws Exception {
-        /*String nomeCompleto = "LINGUAGEM " + "JAVA";
+        String nomeCompleto = "LINGUAGEM " + "JAVA";
         System.out.print(nomeCompleto);
 
         String concatenacao = "? ";
@@ -25,7 +25,7 @@ public class Operadores {
         boolean verdadeiro = true;
         System.out.print(verdadeiro);
 
-        System.out.print("Inverteu " + !verdadeiro);*/
+        System.out.print("Inverteu " + !verdadeiro);
 
         int a, b;
         a = 5;
