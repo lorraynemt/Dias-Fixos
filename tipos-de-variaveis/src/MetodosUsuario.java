@@ -2,6 +2,11 @@ public class MetodosUsuario {
     public static void main(String[] args) throws Exception{
         MetodosSmartTv Tv = new MetodosSmartTv();
 
+        Tv.aumentarVolume();
+        Tv.aumentarVolume();
+        Tv.aumentarCanal();
+        Tv.aumentarCanal();
+
         System.out.println("A TV está ligada ? " + Tv.ligada);
         System.out.println("Em qual canal a TV está ? " + Tv.canal);
         System.out.println("Em que volume está a TV ? " + Tv.volume);
@@ -11,6 +16,8 @@ public class MetodosUsuario {
 
         Tv.desligar();
         System.out.println("A TV foi desligada ? " + Tv.ligada);
-        //FINALIZAR AULA METODOS 3 MIN 09:40
-        }
+
+        Tv.mudarCanal(6);
+        System.out.println("Novo canal: " + Tv.canal);
+    }
 }
